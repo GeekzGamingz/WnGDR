@@ -1,0 +1,14 @@
+{
+  "name": "wngdr",
+  "version": "1.0.0",
+  "description": "A Dice Roller for Wings & Glory",
+  "main": "wngdr.js",
+  "scripts": {
+    "start": "node wngdr.js"
+  },
+  "author": "GeekzAnonymous",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+  }
+}
