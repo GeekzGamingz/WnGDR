@@ -92,7 +92,7 @@ function wrathRoller(messageEvent) //Rolling Function !roll <dice>w<wrathdice> o
         else if (messageEvent.content.includes('+')) //!roll <rawdamage>+<extradice>
         {
             withDamage = messageContent[1].split('+');
-            iconCount = withDamage[0].split('+');
+            iconCount = parseInt(withDamage[0].split('+'));
             rollList = new Array();
             damageList = new Array();
             for (var i = 0; i < withDamage[1]; i++)
