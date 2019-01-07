@@ -74,7 +74,7 @@ function wrathRoller(messageEvent) //Rolling Function !roll <dice>w<wrathdice> o
             else
             {
                 messageEvent.channel.send(messageEvent.author + ': `Roll [' + messageContent[1] + ']`: You obtain (**' + iconCount + '**) Icons!'
-                + '\r[Standard] *' + rollList + '* [Wrath] *' + wrathList + '* [Exalted Icons] ' + exaltedIconCount + ' [Perils] ' + perilsCount);
+                + '\r[**Standard**] *' + rollList + '* [**Wrath**] *' + wrathList + '* [**Exalted Icons**] ' + exaltedIconCount + ' [**Perils**] ' + perilsCount);
                 if (complicationCount > 0)
                 {
                     messageEvent.channel.send('*You experience a* __**Complication**__*!!*');
