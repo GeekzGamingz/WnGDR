@@ -220,7 +220,7 @@ function perils(messageEvent) //Rolling Function !perils <perils>
     if (messageContent[0] == '!perils' && messageEvent.content.includes(' '))
     {
         withPerils = messageContent[1] * 10;
-        roll = (Math.ceil(Math.random() * 6) * 10) + (Math.ceil(Math.random() * 6) - 10);
+        roll = (Math.ceil(Math.random() * 6) * 10) + (Math.ceil(Math.random() * 6));
         total = parseInt(roll) + parseInt(withPerils);
         if (total >= 11 && total <= 12 )
         {
