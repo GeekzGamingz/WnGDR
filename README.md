@@ -1,6 +1,8 @@
 # WnGDR
 Wrath &amp; Glory Dice Roller and Companion Utility for Discord!
 
+Video Guide: https://youtu.be/S7hY9iaRqJM
+
 
 Commands -
 !roll <#dice>w<#wrathDice> - Used for most rolls. The first number is the amount of dice rolled in a skill followed by the amount of wrath dice. Be sure to subtract one from your skill to go toward your wrath dice as per the Core Rulebook!
