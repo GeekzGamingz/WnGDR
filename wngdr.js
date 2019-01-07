@@ -111,6 +111,16 @@ function wrathRoller(messageEvent) //Rolling Function !roll <dice>w<wrathdice> o
             messageEvent.channel.send(messageEvent.author + ': `Roll [' + messageContent[1] + 'ED]`: You deal (**' + iconCount + '**) Damage!'
             + '\r[Extra Dice] *' + rollList + '*');
         }
+	else if (messageContent[1] == 'd66') //!roll d66
+        {
+            roll = (Math.ceil(Math.random() * 6) * 10) + (Math.ceil(Math.random() * 6));
+            messageEvent.channel.send(messageEvent.author + ': `Roll [d66]`: You rolled a (**' + roll + '**)!');
+        }
+        else if (messageContent[1] == 'd6') //!roll d6
+        {
+            roll = (Math.ceil(Math.random() * 6));
+            messageEvent.channel.send(messageEvent.author + ': `Roll [d6]`: You rolled a (**' + roll + '**)!');
+        }
     }
 }
 
