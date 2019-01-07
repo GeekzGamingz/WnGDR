@@ -25,9 +25,11 @@ Commands -
 !trinket - Roll on the Trinket Charts
   
 Link to Add Bot -
+
 https://discordapp.com/oauth2/authorize?client_id=531011938071871500&scope=bot&permissions=0
 
 Donations Always Help!!
+
 Paypal: GeekzGamingz@gmail.com
 
 Thanks for checking this out! Happy Wargaming!!
