@@ -1,5 +1,5 @@
 # WnGDR
-Wings &amp; Glory Dice Roller
+Wrath &amp; Glory Dice Roller
 
 
 Commands -
