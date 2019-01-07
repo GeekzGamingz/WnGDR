@@ -1,6 +1,7 @@
 # WnGDR
 Wings &amp; Glory Dice Roller
 
+
 Commands -
 !roll <#dice>w<#wrathDice> - Used for most rolls. The first number is the amount of dice rolled in a skill followed by the amount of wrath dice. Be sure to subtract one from your skill to go toward your wrath dice as per the Core Rulebook!
 
@@ -24,12 +25,15 @@ Commands -
 
 !trinket - Roll on the Trinket Charts
   
+  
 Link to Add Bot -
 
 https://discordapp.com/oauth2/authorize?client_id=531011938071871500&scope=bot&permissions=0
 
+
 Donations Always Help!!
 
 Paypal: GeekzGamingz@gmail.com
+
 
 Thanks for checking this out! Happy Wargaming!!
