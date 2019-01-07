@@ -1,5 +1,5 @@
 # WnGDR
-Wrath &amp; Glory Dice Roller
+Wrath &amp; Glory Dice Roller and Companion Utility for Discord!
 
 
 Commands -
